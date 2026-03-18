@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="800" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="100%" stop-color="#FECDD3"/>
+    </linearGradient>
+    <linearGradient id="photo1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="40%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="photo2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="50%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="photo3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg5)"/>
+  <g transform="translate(80, 80)">
+    <!-- Before/After comparison -->
+    <rect x="0" y="0" width="300" height="400" rx="20" fill="url(#photo1)" opacity="0.7"/>
+    <rect x="0" y="0" width="150" height="400" rx="20" fill="#4B5563" opacity="0.4"/>
+    <rect x="140" y="0" width="10" height="400" fill="white" opacity="0.4"/>
+    <!-- Labels -->
+    <rect x="30" y="360" width="70" height="24" rx="12" fill="white" opacity="0.8"/>
+    <rect x="180" y="360" width="70" height="24" rx="12" fill="white" opacity="0.8"/>
+    <!-- Preset strip -->
+    <g transform="translate(320, 0)">
+      <rect x="0" y="0" width="320" height="120" rx="16" fill="white" opacity="0.85"/>
+      <!-- Preset thumbnails -->
+      <rect x="16" y="16" width="80" height="56" rx="8" fill="url(#photo1)" opacity="0.8"/>
+      <rect x="108" y="16" width="80" height="56" rx="8" fill="url(#photo2)" opacity="0.8"/>
+      <rect x="200" y="16" width="80" height="56" rx="8" fill="url(#photo3)" opacity="0.8"/>
+      <rect x="16" y="84" width="50" height="8" rx="3" fill="#1F2937" opacity="0.4"/>
+      <rect x="108" y="84" width="50" height="8" rx="3" fill="#1F2937" opacity="0.4"/>
+      <rect x="200" y="84" width="50" height="8" rx="3" fill="#1F2937" opacity="0.4"/>
+    </g>
+    <!-- Adjustment sliders -->
+    <g transform="translate(320, 140)">
+      <rect x="0" y="0" width="320" height="260" rx="16" fill="white" opacity="0.85"/>
+      <rect x="20" y="20" width="120" height="14" rx="4" fill="#1F2937" opacity="0.5"/>
+      <!-- Slider 1 -->
+      <rect x="20" y="56" width="60" height="10" rx="3" fill="#9CA3AF" opacity="0.4"/>
+      <rect x="20" y="72" width="280" height="4" rx="2" fill="#E5E7EB"/>
+      <rect x="20" y="72" width="180" height="4" rx="2" fill="#E11D48" opacity="0.7"/>
+      <circle cx="200" cy="74" r="8" fill="#E11D48" opacity="0.9"/>
+      <!-- Slider 2 -->
+      <rect x="20" y="100" width="50" height="10" rx="3" fill="#9CA3AF" opacity="0.4"/>
+      <rect x="20" y="116" width="280" height="4" rx="2" fill="#E5E7EB"/>
+      <rect x="20" y="116" width="120" height="4" rx="2" fill="#F59E0B" opacity="0.7"/>
+      <circle cx="140" cy="118" r="8" fill="#F59E0B" opacity="0.9"/>
+      <!-- Slider 3 -->
+      <rect x="20" y="144" width="70" height="10" rx="3" fill="#9CA3AF" opacity="0.4"/>
+      <rect x="20" y="160" width="280" height="4" rx="2" fill="#E5E7EB"/>
+      <rect x="20" y="160" width="220" height="4" rx="2" fill="#8B5CF6" opacity="0.7"/>
+      <circle cx="240" cy="162" r="8" fill="#8B5CF6" opacity="0.9"/>
+      <!-- Apply button -->
+      <rect x="20" y="200" width="280" height="40" rx="20" fill="#E11D48" opacity="0.85"/>
+    </g>
+    <!-- Color palette -->
+    <g transform="translate(0, 430)">
+      <rect x="0" y="0" width="640" height="80" rx="16" fill="white" opacity="0.85"/>
+      <rect x="20" y="16" width="80" height="48" rx="10" fill="#0EA5E9"/>
+      <rect x="112" y="16" width="80" height="48" rx="10" fill="#6366F1"/>
+      <rect x="204" y="16" width="80" height="48" rx="10" fill="#A855F7"/>
+      <rect x="296" y="16" width="80" height="48" rx="10" fill="#EC4899"/>
+      <rect x="388" y="16" width="80" height="48" rx="10" fill="#EF4444"/>
+      <rect x="480" y="16" width="80" height="48" rx="10" fill="#F97316"/>
+      <rect x="540" y="16" width="80" height="48" rx="10" fill="#EAB308"/>
+    </g>
+    <!-- Film strip -->
+    <g transform="translate(0, 540)">
+      <rect x="0" y="0" width="640" height="100" rx="16" fill="white" opacity="0.85"/>
+      <rect x="16" y="12" width="100" height="76" rx="8" fill="url(#photo1)" opacity="0.6"/>
+      <rect x="16" y="12" width="100" height="76" rx="8" fill="none" stroke="#E11D48" stroke-width="2.5" opacity="0.8"/>
+      <rect x="128" y="12" width="100" height="76" rx="8" fill="url(#photo2)" opacity="0.5"/>
+      <rect x="240" y="12" width="100" height="76" rx="8" fill="url(#photo3)" opacity="0.5"/>
+      <rect x="352" y="12" width="100" height="76" rx="8" fill="url(#photo1)" opacity="0.3"/>
+      <rect x="464" y="12" width="100" height="76" rx="8" fill="url(#photo2)" opacity="0.3"/>
+    </g>
+  </g>
+</svg>

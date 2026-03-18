@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+  <!-- Two thick slanted parallel bars -->
+  <rect x="1" y="9.5" width="17" height="2.8" rx="1.4" transform="rotate(-15, 9.5, 10.9)" />
+  <rect x="3" y="13.5" width="17" height="2.8" rx="1.4" transform="rotate(-15, 11.5, 14.9)" />
+  <!-- Calligraphic swoosh -->
+  <path d="M12,10.5 C11.5,7 13.5,3 16.5,2 C19.5,1 21,3.5 19.5,6 C18,8.5 15,10 12.5,11 C10,12.5 9,16 11,18.5 C13,20.5 16.5,19 17.5,15.5"
+    stroke="black" stroke-width="2.2" fill="none" stroke-linecap="round" />
+</svg>
